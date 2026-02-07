@@ -259,3 +259,239 @@ button:focus-visible {
   margin: 0;
 }
 
+/* ===== RESPONSIVE STYLES FOR TABLET AND MOBILE ===== */
+
+/* Tablet Landscape (1024px) */
+@media (max-width: 1024px) {
+  .coffee-top {
+    padding: 30px 20px;
+  }
+
+  .coffee-top .logo {
+    font-size: 3rem;
+  }
+
+  .coffee-top .tagline {
+    font-size: 1.3rem;
+  }
+
+  .coffee-top .subtitle {
+    font-size: 1rem;
+    max-width: 500px;
+  }
+
+  .media-section {
+    padding: 60px 30px;
+  }
+
+  .media-title {
+    font-size: 2.2rem;
+  }
+
+  .media-subtitle {
+    font-size: 1rem;
+  }
+
+  .media-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .media-item-title {
+    font-size: 1rem;
+    padding: 14px;
+  }
+
+  .play-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .play-button svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* Tablet Portrait (768px) */
+@media (max-width: 768px) {
+  .coffee-top {
+    padding: 25px 15px;
+    min-height: 80vh;
+  }
+
+  .coffee-top .logo {
+    font-size: 2.5rem;
+  }
+
+  .coffee-top .tagline {
+    font-size: 1.1rem;
+  }
+
+  .coffee-top .subtitle {
+    font-size: 0.95rem;
+    max-width: 400px;
+  }
+
+  .media-section {
+    padding: 50px 20px;
+  }
+
+  .media-title {
+    font-size: 2rem;
+  }
+
+  .media-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .media-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+  }
+
+  .media-item {
+    border-radius: 15px;
+  }
+
+  .media-item-title {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+
+  .play-button {
+    width: 45px;
+    height: 45px;
+  }
+
+  .play-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .duration {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+}
+
+/* Mobile Large (576px) */
+@media (max-width: 576px) {
+  .coffee-top {
+    padding: 20px 10px;
+    min-height: 70vh;
+  }
+
+  .coffee-top .logo {
+    font-size: 2rem;
+  }
+
+  .coffee-top .tagline {
+    font-size: 1rem;
+  }
+
+  .coffee-top .subtitle {
+    font-size: 0.9rem;
+    max-width: 300px;
+  }
+
+  .media-section {
+    padding: 40px 15px;
+  }
+
+  .media-title {
+    font-size: 1.8rem;
+  }
+
+  .media-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .media-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .media-item {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .media-item-title {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .play-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .play-button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .duration {
+    font-size: 0.75rem;
+    padding: 2px 5px;
+  }
+}
+
+/* Mobile Small (400px) */
+@media (max-width: 400px) {
+  .coffee-top {
+    padding: 15px 10px;
+    min-height: 60vh;
+  }
+
+  .coffee-top .logo {
+    font-size: 1.8rem;
+  }
+
+  .coffee-top .tagline {
+    font-size: 0.9rem;
+  }
+
+  .coffee-top .subtitle {
+    font-size: 0.85rem;
+    max-width: 250px;
+  }
+
+  .media-section {
+    padding: 30px 10px;
+  }
+
+  .media-title {
+    font-size: 1.6rem;
+  }
+
+  .media-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .media-grid {
+    gap: 12px;
+  }
+
+  .media-item-title {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+
+  .play-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .play-button svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .duration {
+    font-size: 0.7rem;
+    padding: 2px 4px;
+  }
+}
+
